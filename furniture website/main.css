@@ -1,0 +1,166 @@
+
+
+body{
+    background-color:blanchedalmond;
+}
+.title{
+    padding: 50px;
+}
+.title-div{
+    background-image: url(asset/sofa1.jpg);
+    height: 650px;
+    background-position: center;
+    background-size: 100% 650px;
+    border-radius:30px;
+}
+.navbar{
+    padding: 50px;
+}
+.navbar-nav{
+    text-align: center;
+}
+.title-text{
+    position: absolute;
+    font-size: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "montserrat";
+}
+
+
+/* feature */
+
+
+.row{
+    padding: 50px;
+    text-align: center;
+}
+.img-cont{
+    margin-bottom: 50px;
+}
+.text-12{
+    font-family: "montserrat";
+    font-size: 30px;
+    font-weight: bold;
+}
+.text-cont{
+    margin-top: 20px;
+    font-family: "montserrat";
+    font-size: 15px;
+    font-weight:thin;
+    line-height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+/* top-collection */
+
+.heading-box{
+    text-align: center;
+    font-family: "montserrat";
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-gap: 30px;
+}
+.box{
+    height: 380px;
+    background-color: azure;
+    border-radius: 30px;
+    padding-top: 20px;
+    font-family: "montserrat";
+    font-size: 20px;
+    font-weight: bold;
+}
+.img-shop{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border:2px solid black
+
+}
+.btn{
+    margin-top: 10px;
+}
+
+/* footer */
+.footer{
+    height: 100px;
+    text-align: center;
+
+}
+.footer-link{
+    color: black;
+    margin-left: 30px;
+    
+}
+
+.surname{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+@media(max-width:898px){
+    .grid-container{
+        display: block;
+    }
+    .man-img{
+        display: block;
+        text-align: center;
+        margin:auto auto ;
+        height: 400px;
+        width:50%;
+    }
+    #features{
+        padding: 50px;
+    }
+
+    .grid-item2{
+        grid-gap: 20px;
+        
+    }
+    .inner-inner{
+
+        width: 70%;
+        height:300px;
+
+        
+    
+    }
+    .container{
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width: 549px){
+    .container{
+        grid-template-columns: auto ;
+    }
+    .title-text{
+        font-size: 40px;
+    }
+    .heading-box{
+
+        font-size: 40px;
+    }
+    .navbar{
+        padding: 0px;
+        padding-top: 50px;
+    }
+    .title{
+        padding: 0px;
+    }
+    .title-div{
+
+        border-radius:0px;
+    }
+    
+}
+
